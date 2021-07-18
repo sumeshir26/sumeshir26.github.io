@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.hero{
+    padding-top: 100px;
+    height: 50vh;
+    width: 100vw;
+    margin: auto;
+    color: white;
+    font-family: "Roboto";
+}
+.herounderlay{
+    display: flex;
+    flex-direction: column;
+    background: url(../assets/hero.png);
+    background-repeat: no-repeat;  
+    background-size: cover; 
+    height: 100%;
+    max-width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.heromain{
+    font-weight: bold;
+    font-size: 48px;
+    width: min-content;
+    min-width: 50%;
+    max-width: 100%;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.herosubtitle{
+    width: min-content;
+    text-align: center;
+    font-size: 12px;
+    min-width: 50%;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+}
+.herobuttons {
+	margin:15px;
+}
+
+.herocontact {
+	font-size: large;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #e7b800;
+	background: rgba(59,59,59,0.5);
+    text-decoration: none;
+    color: white;
+}
+
+.herocontact:hover {
+    transition: 1000ms all;
+	background: rgba(59,59,59,1);
+}
+
+.herosign {
+	font-size: large;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #e7b800;
+	background: #f8c600;
+    text-decoration: none;
+    color: white;
+}
+.herosign:hover{
+    transition: 1000ms all;
+    background-color: d6ab00;
+}

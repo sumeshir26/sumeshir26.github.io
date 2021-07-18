@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+#catagories{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: "Manrope";
+}
+.catagorycard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 20px;
+}
+.catagorycard img{
+    height: 350px;
+    width: 18vw;
+    object-fit: cover;
+    object-position: center;
+}
+.catagorycardheader{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    font-family:"Roboto";
+    color:#eb7800;
+    width: 18vw;
+    padding-top: 10px;
+}
+.catagorycardbody{
+    font-size: 16px;
+    width: 18vw;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}

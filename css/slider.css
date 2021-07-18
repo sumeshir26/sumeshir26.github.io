@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.slidercontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background: #e7b800;
+    max-width: 100%;
+    padding: 10px 0px;
+    font-family: "Manrope";
+  }
+  .sliderinner {
+    overflow: hidden;
+    width: 300px;
+    margin: 30px;
+  }
+  .sliders {
+    /* line them up horizontally */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+  .slider {
+    /* line them up horizontally */
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    transition: 500ms ease-out;
+  }
+  .slider > div {
+    /* make sure the width is honored */
+    flex-shrink: 0;
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .slider > div>img {
+    /* make sure the width is honored */
+    width: inherit;
+  }
+  
+  .sliderbutton {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  .sliderbutton:hover{
+      background-color: rgba(128, 128, 128, 0.123);
+  }
+  .slidertextdivs {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .morebutton {
+    font-size: 16px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    width: 40%;
+    transition: 200ms all;
+  }
+  
+  .morebutton:hover {
+    background: #3b3b3b;
+  }
+  
+  @media screen and (max-device-width: 500px) {
+    .sliderbutton {
+      margin: 5px;
+    }
+    .slider > div {
+      width: 220px;
+    }
+    .sliderinner {
+      width: 220px;
+    }
+    .slidertextdivs{
+      font-size: 20px;
+    }
+  }

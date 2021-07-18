@@ -1,0 +1,35 @@
+footer {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: max-content;
+    min-width: 70vw;
+    max-width: 100vw;
+    height: 200px;
+  }
+  footer img {
+    flex-shrink: 1;
+    padding: 20px;
+  
+    width: 80px;
+    height: 64px;
+  }
+  
+  .contactinfo {
+    flex-grow: 4;
+  }
+  .contactinfo div {
+      color: #737B7D;
+    margin: 20px;
+  }
+  .footerlinks {
+     
+      display:inline-flex;
+      text-align: center;
+      justify-content: center;
+  }
+  .footerlinks a {
+      margin: 20px;
+  }
+  
